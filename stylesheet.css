@@ -67,7 +67,7 @@ main {
     display: flex;
 }
 
-.main-left-box {
+.main-left-box { 
     width: 512px;
 }
 
@@ -87,11 +87,43 @@ main {
 }
 
 .main-right-box {
-    width: 512px;
-    background-color: red;
+    margin-left: 70px;
+    position: relative;
+    top: -30px;
+    width: 450px;
     height: 100%;
 }
 
 .main-right-box h2 {
     font-weight: normal;
+}
+
+.main-right-box h3 {
+    margin: 10px 0;
+    color: grey;
+}
+
+.input-short {
+    width: 45%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-long {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.date {
+    padding: 5px;
+    display: flex;
+}
+
+.radio-checkbox {
+    margin: 8px;
 }
